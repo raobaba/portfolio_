@@ -11,6 +11,7 @@
 .calender{
     width: 80%;
     margin: auto;
+    background-color: aliceblue;
 }
 .head{
     font-family: var(--primaryFont);

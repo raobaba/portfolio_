@@ -3,7 +3,9 @@ import "./certificates.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { StyledSlider } from "./Box.styled.js";
-
+import CSS from "../images/css1.png";
+import Basic from "../images/basic1.png";
+import Intermediate from "../images/intermediate1.png";
 
 export default function Certificates() {
   const settings = {
@@ -22,7 +24,7 @@ export default function Certificates() {
         <div className="box">
           <div className="cert1">
             <div className="cert2">
-              <img src="https://raobaba.github.io/static/media/css1.74be158fad6b13d6e699.png" alt="css" />
+              <img src={CSS} alt="css" />
             </div>
             <div className="cert2">
               <h2>Cascading Style Sheets <br />(Basic) </h2>
@@ -37,7 +39,7 @@ export default function Certificates() {
         <div className="box">
           <div className="cert1">
             <div className="cert2">
-              <img src="https://raobaba.github.io/static/media/basic1.0bcf853e0e2106f2a27e.png" alt="basic" width="100%" height="100%" />
+              <img src={Basic} alt="basic" width="100%" height="100%" />
             </div>
             <div className="cert2">
               <h2>Problem Solving Certificate <br /> (Basic) </h2>
@@ -52,7 +54,7 @@ export default function Certificates() {
         <div className="box">
           <div className="cert1">
             <div className="cert2">
-              <img src="https://raobaba.github.io/static/media/intermediate1.00ec01e8a093ce799379.png" alt="intermediate" width="100%" height="100%" />
+              <img src={Intermediate} alt="intermediate" width="100%" height="100%" />
             </div>
             <div className="cert2">
               <h2>Problem Solving Certificate <br />(Intermediate) </h2>
