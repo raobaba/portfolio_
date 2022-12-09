@@ -1,0 +1,74 @@
+#projects{
+    width: 90%;
+    height: auto;
+    margin: auto;
+    /* border: 2px solid white; */
+  }
+  .projects-container>p{
+    color: #00ade7;
+    font-size: 52.8px;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .port1{
+    display: flex;
+  }
+  .port2{
+    width: 60%;
+/*   
+    border: 4px solid white; */
+  }
+  .port2>img{
+    width: 100%;
+    
+  }
+  .port2 h2,p{
+    color: aliceblue;
+  }
+  
+  projects-container>p{
+    color: #00ade7;
+    font-size: 52.8px;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .port2>div~div button>a{
+    color: rgb(0,170,227);
+    text-decoration: none;
+    font-size: 18px;
+  }
+  .port2>div~div button{
+    border-radius: 5px;
+    background-color: rgb(235, 255, 255);
+    width: 70px;
+    height: 30px;
+  }
+
+  
+  
+  @media screen and (min-width: 750px) and (max-width: 1050px){
+        .port1{
+          display: grid;
+        }
+        .port2{
+          width: 90%;
+          height: auto;
+          margin: auto;
+        }
+        #projects{
+          height: 1000px;
+        }
+  }
+  @media screen and (min-width: 200px) and (max-width: 750px){
+        .port1{
+          display: grid;
+        }
+        .port2{
+          width: 90%;
+          height: auto;
+          margin: auto;
+        }
+        #projects{
+          height: 900px;
+        }
+  }

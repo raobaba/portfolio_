@@ -1,0 +1,13 @@
+.Thanks_Giving{
+    width: 100%;
+    height: 40px;
+    margin-top: -30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.Thanks_Giving>p{
+    color: white;
+    font-size:18px;
+}
