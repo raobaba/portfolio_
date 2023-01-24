@@ -35,7 +35,7 @@ export default function Projects() {
               </div>
               <div>
               <button>
-              <a href=https://techhub-original.netlify.app/">Visit</a>|
+              <a href="https://techhub-original.netlify.app/">Visit</a>|
               </button>
               <button>
                 <a href="https://github.com/raobaba/united-cobweb-7806">Github</a>
