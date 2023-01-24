@@ -35,7 +35,7 @@ export default function Projects() {
               </div>
               <div>
               <button>
-              <a href="https://techhub-original.netlify.app">Visit</a>
+              <a href="https://techhub-original.netlify.app/">Visit</a>
               </button>
               <button>
                 <a href="https://github.com/raobaba/united-cobweb-7806">Github</a>
@@ -58,7 +58,7 @@ export default function Projects() {
               </div>
               <div>
               <button>
-              <a href="https://inquisitive-cascaron-6f30a0.netlify.app">Visit</a>
+              <a href="https://inquisitive-cascaron-6f30a0.netlify.app/">Visit</a>
               </button>
               <button>
                 <a href="https://github.com/raobaba/Clone-SkinStore">Github</a>
@@ -81,7 +81,7 @@ export default function Projects() {
               </div>
               <div>
               <button>
-              <a href="https://darling-tartufo-bbf819.netlify.app">Visit</a>
+              <a href="https://darling-tartufo-bbf819.netlify.app/">Visit</a>
               </button>
               <button>
                 <a href="https://github.com/raobaba/Myntra-Clone">Github</a>
@@ -104,7 +104,7 @@ export default function Projects() {
               </div>
               <div>
               <button>
-              <a href="https://orbitz-clone-v1.netlify.app">Visit</a>
+              <a href="https://orbitz-clone-v1.netlify.app/">Visit</a>
               </button>
               <button>
                 <a href="https://github.com/raobaba/Clone-Orbitz">Github</a>
