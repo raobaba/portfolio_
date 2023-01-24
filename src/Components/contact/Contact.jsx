@@ -18,7 +18,7 @@ import download from "../download/Rajan_Kumar_Resume.pdf";
 export default function Contact() {
   function handleClick() {
     window.open(
-      "https://drive.google.com/file/d/1STlJRNglJ5smN4Ik941uyNUVXG1LymfT/view?usp=sharing",
+      "https://drive.google.com/file/d/1iM24EmBxgO59nR3QJP9voNaJ_h4C0Ysx/view",
       "_blank"
     );
   }
