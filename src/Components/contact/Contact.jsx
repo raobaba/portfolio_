@@ -13,12 +13,12 @@ import {
   faInstagram,
   faTwitter,
 } from "@fortawesome/free-brands-svg-icons";
-import download from "../download/Rajan_Kumar_Resume.pdf";
+import download from "../download/Rajan-Kumar-Resume.pdf";
 
 export default function Contact() {
   function handleClick() {
     window.open(
-      "https://drive.google.com/file/d/1iM24EmBxgO59nR3QJP9voNaJ_h4C0Ysx/view",
+      "https://drive.google.com/file/d/1b8GyIwDkaBzisELbWWYsT-VzcWIhn3Wi/view?usp=sharing",
       "_blank"
     );
   }

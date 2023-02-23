@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 import { faGithub, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 import AOS from "aos";
-import download from "../download/Rajan_Kumar_Resume.pdf";
+import download from "../download/Rajan-Kumar-Resume.pdf";
 import Typewriter from "typewriter-effect";
 export default function About() {
   useEffect(() => {
@@ -13,7 +13,7 @@ export default function About() {
     });
   }, []);
   function handleClick(){
-    window.open("https://drive.google.com/file/d/1iM24EmBxgO59nR3QJP9voNaJ_h4C0Ysx/view",'_blank');
+    window.open("https://drive.google.com/file/d/1b8GyIwDkaBzisELbWWYsT-VzcWIhn3Wi/view?usp=sharing",'_blank');
 }
   return (
     <div id="home" className="about">
