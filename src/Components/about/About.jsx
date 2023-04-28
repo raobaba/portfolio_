@@ -16,9 +16,9 @@ export default function About() {
     window.open("https://drive.google.com/file/d/1YZ1d8-lA_lQdqeM6ZL8KCBbJ4sNjpSHc/view?usp=share_link",'_blank');
 }
   return (
-    <div id="home"  className="about">
-      <div id="user-detail-name" className="about-container">
-        <div id="user-detail-name" className="left" data-aos="fade-up">
+    <div id="home"  className="about about.about.section">
+      <div id="user-detail-name" className="about-container about.about.section">
+        <div id="user-detail-name" className="left about.about.section" data-aos="fade-up">
           <p className="hello">Hello 👋.</p>
           <p className="intro">
             I'm
@@ -32,7 +32,7 @@ export default function About() {
               />
             </span>
           </p>
-          <div id="user-detail-name" className="type">
+          <div id="user-detail-name" className="type about.about.section">
             <Typewriter
               options={{
                 strings: [

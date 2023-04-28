@@ -8,8 +8,8 @@ import MobileNavbar from "./MobileNavbar";
 
 function WebNavbar({func,sidebar}) {
   return (
-    <div id='container' className="container">
-      <div className="name nav-menu">
+    <div id='container' className="container nav-link.home">
+      <div className="name nav-menu nav-link.home">
         <p>
           Rajan <span>Kumar</span>
         </p>
@@ -17,7 +17,7 @@ function WebNavbar({func,sidebar}) {
       <div className="details">
         <div className="links_container nav-menu">
           <Link
-            className="button nav-menu"
+            className="button nav-menu nav-link.home"
             activeClass="active"
             to="home"
             spy={true}
@@ -28,7 +28,7 @@ function WebNavbar({func,sidebar}) {
             <button>HOME</button>
           </Link>
           <Link
-            className="button nav-menu"
+            className="button nav-menu nav-link.home"
             activeClass="active"
             to="about"
             spy={true}
@@ -39,7 +39,7 @@ function WebNavbar({func,sidebar}) {
             <button>ABOUT</button>
           </Link>
           <Link
-            className="button nav-menu"
+            className="button nav-menu nav-link.home"
             activeClass="active"
             to="skills"
             spy={true}
@@ -50,7 +50,7 @@ function WebNavbar({func,sidebar}) {
             <button>SKILLS</button>
           </Link>
           <Link
-            className="button nav-menu"
+            className="button nav-menu nav-link.home"
             activeClass="active"
             to="certificates"
             spy={true}
@@ -61,7 +61,7 @@ function WebNavbar({func,sidebar}) {
             <button>CERTIFICATE</button>
           </Link>
           <Link
-            className="button nav-menu"
+            className="button nav-menu nav-link.home"
             activeClass="active"
             to="projects"
             spy={true}
@@ -72,7 +72,7 @@ function WebNavbar({func,sidebar}) {
             <button>PROJECT</button>
           </Link>
           <Link
-            className="button nav-menu"
+            className="button nav-menu nav-link.home"
             activeClass="active"
             to="github"
             spy={true}
@@ -83,7 +83,7 @@ function WebNavbar({func,sidebar}) {
             <button>GITHUB</button>
           </Link>
           <Link
-            className="button nav-menu"
+            className="button nav-menu nav-link.home"
             activeClass="active"
             to="Contact"
             spy={true}
@@ -94,7 +94,7 @@ function WebNavbar({func,sidebar}) {
             <button>CONTACT</button>
           </Link>
         </div>
-        <div className="mobile_menu_bars" style={{marginLeft:"15px"}} onClick={func}>
+        <div className="mobile_menu_bars nav-link.home" style={{marginLeft:"15px"}} onClick={func}>
           <MobileNavbar sidebar={sidebar}></MobileNavbar>
         </div>
       </div>

@@ -5,10 +5,10 @@ import "./Header.css";
 
 function MobileNavbar({sidebar}) {
   return (
-    <div className="mobile_parent_container">
-      <div className="mobile_bars">
+    <div className="mobile_parent_container nav-link.home">
+      <div className="mobile_bars nav-link.home">
         {
-          sidebar ? <FontAwesomeIcon className="open_bars closeit" icon={faXmark} /> : <FontAwesomeIcon className="open_bars" icon={faBars} />
+          sidebar ? <FontAwesomeIcon className="open_bars closeit nav-link.home" icon={faXmark} /> : <FontAwesomeIcon className="open_bars" icon={faBars} />
         }
       </div>
     </div>

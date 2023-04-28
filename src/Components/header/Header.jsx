@@ -10,7 +10,7 @@ export default function Header({openSidebar,sidebar}) {
       animate={{ y: 0 }}
       initial={{ y: -60 }}
       transition={{ type: "tween", duration: 0.7, ease: "easeInOut" }}
-      className="main"
+      className="main nav-link.home"
     >
       <WebNavbar func={openSidebar} sidebar={sidebar}></WebNavbar>
       <motion.div animate={{ x: 100 }} />
