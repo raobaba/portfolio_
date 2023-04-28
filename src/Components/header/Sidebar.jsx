@@ -8,6 +8,7 @@ function Sidebar({ sidebar, close }) {
   return (
     <div className={sidebar ? "sidebar sidebar--open" : "sidebar"}>
       <Link
+        className="nav-menu"
         activeClass="active"
         to="home"
         spy={true}
@@ -19,6 +20,7 @@ function Sidebar({ sidebar, close }) {
         <li>Home</li>
       </Link>
       <Link
+        className="nav-menu"
         activeClass="active"
         to="about"
         spy={true}
@@ -30,6 +32,7 @@ function Sidebar({ sidebar, close }) {
         <li>About</li>
       </Link>
       <Link
+        className="nav-menu"
         activeClass="active"
         to="skills"
         spy={true}
@@ -41,6 +44,7 @@ function Sidebar({ sidebar, close }) {
         <li>Skills</li>
       </Link>
       <Link
+        className="nav-menu"
         activeClass="active"
         to="certificates"
         spy={true}
@@ -52,6 +56,7 @@ function Sidebar({ sidebar, close }) {
         <li>Certificates</li>
       </Link>
       <Link
+        className="nav-menu"
         activeClass="active"
         to="projects"
         spy={true}
@@ -63,6 +68,7 @@ function Sidebar({ sidebar, close }) {
         <li>Projects</li>
       </Link>
       <Link
+        className="nav-menu"
         activeClass="active"
         to="github"
         spy={true}
@@ -74,6 +80,7 @@ function Sidebar({ sidebar, close }) {
         <li>Github</li>
       </Link>
       <Link
+        className="nav-menu"
         activeClass="active"
         to="Contact"
         spy={true}

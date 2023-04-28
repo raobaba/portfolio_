@@ -9,15 +9,15 @@ import MobileNavbar from "./MobileNavbar";
 function WebNavbar({func,sidebar}) {
   return (
     <div id='container' className="container">
-      <div className="name">
+      <div className="name nav-menu">
         <p>
           Rajan <span>Kumar</span>
         </p>
       </div>
       <div className="details">
-        <div className="links_container">
+        <div className="links_container nav-menu">
           <Link
-            className="button"
+            className="button nav-menu"
             activeClass="active"
             to="home"
             spy={true}
@@ -28,7 +28,7 @@ function WebNavbar({func,sidebar}) {
             <button>HOME</button>
           </Link>
           <Link
-            className="button"
+            className="button nav-menu"
             activeClass="active"
             to="about"
             spy={true}
@@ -39,7 +39,7 @@ function WebNavbar({func,sidebar}) {
             <button>ABOUT</button>
           </Link>
           <Link
-            className="button"
+            className="button nav-menu"
             activeClass="active"
             to="skills"
             spy={true}
@@ -50,7 +50,7 @@ function WebNavbar({func,sidebar}) {
             <button>SKILLS</button>
           </Link>
           <Link
-            className="button"
+            className="button nav-menu"
             activeClass="active"
             to="certificates"
             spy={true}
@@ -61,7 +61,7 @@ function WebNavbar({func,sidebar}) {
             <button>CERTIFICATE</button>
           </Link>
           <Link
-            className="button"
+            className="button nav-menu"
             activeClass="active"
             to="projects"
             spy={true}
@@ -72,7 +72,7 @@ function WebNavbar({func,sidebar}) {
             <button>PROJECT</button>
           </Link>
           <Link
-            className="button"
+            className="button nav-menu"
             activeClass="active"
             to="github"
             spy={true}
@@ -83,7 +83,7 @@ function WebNavbar({func,sidebar}) {
             <button>GITHUB</button>
           </Link>
           <Link
-            className="button"
+            className="button nav-menu"
             activeClass="active"
             to="Contact"
             spy={true}
