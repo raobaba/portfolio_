@@ -12,9 +12,9 @@ export default function AboutMe() {
     <div id="about">
       <div id="AboutMe-parent">
         <p>Who I am</p>
-        <div className="parent">
+        <div className="parent" id="user-detail-intro">
           <div>
-            <div className="paragraph" >
+            <div id="user-detail-intro" className="paragraph" >
               <p>
                 My name is Rajan Kumar. I'm a aspiring Full-Stack Web-Developer
                 based in Masai School, Bengaluru.

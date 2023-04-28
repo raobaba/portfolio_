@@ -18,15 +18,15 @@ export default function Projects() {
     pauseOnHover: true
   };
   return (
-    <div id="projects" className="projects-container">
+    <div id="projects" className="projects-container project-card">
       <p>Projects</p>
       <StyledSlider {...settings}>
-        <div className="Probox">
-          <div className="port1">
-            <div className="port2">
+        <div className="Probox project-card">
+          <div className="port1 project-card">
+            <div className="port2 project-card">
               <img src={TechHub} alt="css" width="100%" height="100%" />
             </div>
-            <div className="port2">
+            <div className="port2 project-card">
               <h2>TechHub-Electronics Devices</h2>
               <p style={{textAlign:"center"}}>is an American multinational consumer electronics retailer headquartered in Richfield, Minnesota. Originally founded by Richard M. Schulze and James Wheeler in 1966 as an audio specialty store called Sound of Music,</p>
               <div>

@@ -13,7 +13,7 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "aos": "^2.3.4",
-    "framer-motion": "^7.6.4",
+    "framer-motion": "^7.10.3",
     "glamor": "^2.20.40",
     "react": "^18.2.0",
     "react-burger-menu": "^3.0.8",

@@ -8,7 +8,7 @@ import MobileNavbar from "./MobileNavbar";
 
 function WebNavbar({func,sidebar}) {
   return (
-    <div className="container">
+    <div id='container' className="container">
       <div className="name">
         <p>
           Rajan <span>Kumar</span>

@@ -13,16 +13,16 @@ export default function About() {
     });
   }, []);
   function handleClick(){
-    window.open("https://drive.google.com/file/d/1b8GyIwDkaBzisELbWWYsT-VzcWIhn3Wi/view?usp=sharing",'_blank');
+    window.open("https://drive.google.com/file/d/1YZ1d8-lA_lQdqeM6ZL8KCBbJ4sNjpSHc/view?usp=share_link",'_blank');
 }
   return (
-    <div id="home" className="about">
-      <div className="about-container">
-        <div className="left" data-aos="fade-up">
+    <div id="home"  className="about">
+      <div id="user-detail-name" className="about-container">
+        <div id="user-detail-name" className="left" data-aos="fade-up">
           <p className="hello">Hello 👋.</p>
           <p className="intro">
             I'm
-            <span id="name">
+            <span id="name" >
               <Typewriter
                 options={{
                   strings: ["Rajan Kumar "],
@@ -32,7 +32,7 @@ export default function About() {
               />
             </span>
           </p>
-          <div className="type">
+          <div id="user-detail-name" className="type">
             <Typewriter
               options={{
                 strings: [
@@ -71,7 +71,7 @@ export default function About() {
             </a>
           </div>
         </div>
-        <div className="about-img" data-aos="fade-up">
+        <div className="about-img home-img" data-aos="fade-up">
           <img src="https://avatars.githubusercontent.com/u/99542983?v=4" alt="RaoBaBa" />
         </div>
       </div>
